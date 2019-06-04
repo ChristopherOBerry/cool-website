@@ -29,8 +29,8 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .main-text {
     
-    padding-left: 33%;
-    padding-right:33%;
+    /* padding-left: 33%;
+    padding-right:33%; */
     font-size: 1.1em;
     font-family: arial;
 
@@ -59,8 +59,14 @@ footer {
     background-color: darkblue;
 } 
 
-.d-block {
+.d-inline {
     display: inline-block;
     
+    
 }
+section {
+    width: 50vw;
+    margin-left: 24vw;
+}
+
 
