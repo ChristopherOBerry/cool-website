@@ -13,14 +13,18 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-hr {
+.modify-bar {
 height: 10px;
 color: lightblue;
 background-color: lightblue;
-padding-left: 33%;
-padding-right: 33%;
+margin-left: 27%;
+margin-right: 27%;
+height: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
 
 }
 .main-text {
@@ -28,28 +32,35 @@ padding-right: 33%;
     padding-left: 33%;
     padding-right:33%;
     font-size: 1.1em;
+    font-family: arial;
+
 
 }
 .dock-right {
-    float: right;
-    padding-right: 10%;
-    background-color: rgba(15, 109, 233, 0.658);
-    margin: 5%;
-
+    text-align: center;
+    width: 10vh;
+    padding: 50px;
+    background-color: #4a86e8;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 }
 
 
 .sidebar {
-    right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
 
 
 }
 footer {
+    border: 2px solid black;
     background-color: darkblue;
-    background-size: 15%;
-    border: 2px solid black; 
+} 
 
-
+.d-block {
+    display: inline-block;
+    
 }
+
